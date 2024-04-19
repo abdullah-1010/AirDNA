@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border list-none p-0 m-0 scroll-smooth;
+  }
+
+  /* body {
+    @apply bg-dark-1 text-white min-h-screen font-inter;
+  } */
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #09090a;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #5c5c7b;
+    border-radius: 50px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #7878a3;
+  }
+
+  .MuiBox-root.css-nljllg {
+    display: flex;
+    column-gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .MuiBox-root.css-10mkmwe {
+    padding: 8px 16px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .MuiBox-root.css-rcxfxe {
+    position: relative;
+    display: inline-flex;
+    height: fit-content;
+  }
+
+  .css-711yzy {
+    display: inline-block;
+    transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: rgb(63, 81, 181);
+  }
+
+  .css-711yzy .MuiCircularProgress-circle {
+    stroke-linecap: round;
+  }
+
+  .css-18h32s2 {
+    stroke: currentcolor;
+    transition: stroke-dashoffset 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+
+  .css-eny2bh {
+    display: inline-block;
+    transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: rgba(63, 81, 181, 0.125);
+    position: absolute;
+    z-index: -1;
+    margin-top: 1px;
+    margin-left: 1px;
+  }
+
+  .css-18h32s2 {
+    stroke: currentcolor;
+    transition: stroke-dashoffset 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .css-1o8dslu {
+    inset: 0px;
+    position: absolute;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .css-xi606m {
+    text-align: center;
+  }
+  .css-r22nm0 {
+    margin: 0px;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 0.1px;
+    color: rgb(33, 33, 33);
+  }
+  .css-16p1w4b {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 8px;
+    padding-top: 2px;
+  }
+  .css-1l2kcxs {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: aktiv-grotesk, sans-serif;
+    color: rgb(33, 33, 33);
+    line-height: 20px;
+    max-width: 190px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .css-aeps8 {
+    margin: 4px 0px 0px;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    color: rgb(102, 102, 102);
+    line-height: 14px;
+  }
+  .css-5s04d1 {
+    display: flex;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .css-1hx8kxg {
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: space-evenly;
+  }
+  .css-ukkjh9 {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .css-3ry9xp {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: aktiv-grotesk, sans-serif;
+    color: rgb(33, 33, 33);
+    line-height: 22px;
+  }
+  .css-1j65iz8 {
+    margin: 0px;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(33, 33, 33);
+    line-height: 16px;
+    font-weight: 300;
+  }
+  .css-vwncaa {
+    margin: 0px 0px -8px;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(33, 33, 33);
+    line-height: 16px;
+    font-weight: 300;
+  }
+  .css-172lh00 {
+    margin: 8px 0px;
+    flex-shrink: 0;
+    border-width: 0px thin 0px 0px;
+    border-style: solid;
+    height: auto;
+    align-self: stretch;
+    border-color: rgb(222, 227, 232);
+  }
+  .css-72fd9l {
+    flex: 0 1 0%;
+  }
+  .css-xi606m {
+    text-align: center;
+  }
+  .css-3ry9xp {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: aktiv-grotesk, sans-serif;
+    color: rgb(33, 33, 33);
+    line-height: 22px;
+  }
+  .css-10115j1 {
+    margin: 0px 0px -8px;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(33, 33, 33);
+    line-height: 32px;
+    font-weight: 300;
+  }
+  .css-1hx8kxg {
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: space-evenly;
+  }
+  .css-cuv65e {
+    margin: 8px 0px;
+    flex-shrink: 0;
+    border-width: 0px thin 0px 0px;
+    border-style: solid;
+    height: auto;
+    align-self: stretch;
+    border-color: rgb(222, 227, 232);
+    width: 1px;
+  }
+  .css-ukkjh9 {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .css-3ry9xp {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: aktiv-grotesk, sans-serif;
+    color: rgb(33, 33, 33);
+    line-height: 22px;
+  }
+  .css-10115j1 {
+    margin: 0px 0px -8px;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(33, 33, 33);
+    line-height: 32px;
+    font-weight: 300;
+  }
+  .css-2cacyf {
+    margin: 8px 0px 0px;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    font-weight: 300;
+  }
+  .css-1knggpy {
+    display: block;
+    border-radius: 8px;
+    border: 1px solid rgb(238, 238, 238);
+    overflow: hidden;
+    position: relative;
+    height: 262px;
+    width: 360px;
+  }
+  .css-dxp6xd > .MuiGrid-item {
+    padding-left: 8px;
+  }
+
+  .css-dxp6xd > .MuiGrid-item {
+    padding-top: 8px;
+  }
+  .css-dxp6xd {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: -8px;
+    width: calc(100% + 8px);
+    margin-left: -8px;
+    padding-bottom: 16px;
+  }
+  div {
+    display: block;
+    unicode-bidi: isolate;
+  }
+  .css-qebjua {
+    height: 100%;
+  }
+  .css-7g648y {
+    margin: 0px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: rgb(158, 167, 216);
+    text-decoration: none;
+  }
+  .css-6gxhc5 {
+    height: 120px;
+  }
+  .css-b7jmoi {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .css-2lhryt {
+    display: block;
+    background-color: rgba(33, 33, 33, 0.11);
+    height: 1.2em;
+    visibility: hidden;
+    transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .css-1l6savg {
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: transparent;
+  }
+}
+
+@layer components {
+}
